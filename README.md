@@ -1,6 +1,4 @@
 # Peer-graded-Assignment-Prediction-Assignment-Writeup
-MyPMLAssignment
-
 ---
 title: "MyPMLAssignment"
 author: "FZ DS"
