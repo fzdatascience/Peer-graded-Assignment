@@ -72,7 +72,7 @@ The first step is to load the csv file data to dataframe and analyze the type & 
 
 
 ```r
-data <- read.csv("/projects/Coursera-PracticalMachineLearning/data//pml-training.csv")
+data <- read.csv("C:/Users/hp/Downloads//pml-training.csv")
 #summary(data)
 #describe(data)
 #sapply(data, class)
@@ -87,7 +87,7 @@ To manage the first issue we need to reimport data ignoring "#DIV/0!" values :
 
 
 ```r
-data <- read.csv("/projects/Coursera-PracticalMachineLearning/data//pml-training.csv", na.strings=c("#DIV/0!") )
+data <- read.csv("C:/Users/hp/Downloads//pml-training.csv", na.strings=c("#DIV/0!") )
 ```
 
 And force the cast to numeric values for the specified columns (i.e.: 8 to end) :
